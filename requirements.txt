@@ -1,0 +1,4 @@
+mechanize >= 0.3.5
+BeautifulSoup4 >= 3.2.1
+requests >= 2.18.4
+telepot >= 12.3
