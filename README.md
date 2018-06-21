@@ -6,23 +6,6 @@
 - I can't say if this bot works or not at the moment since their website hardly opens
   as long as you are not on their local network. I haven't been able to test it lately.
 
-## Changes in uims_bot.py for installation
-
-- Change in browser.addheaders ```browser.addheaders = [("User-agent","Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13")]```
-- **Steps to find out user-agent of your system**
-
-    (1) Open chrome browser.
-    
-    (2) search chrome://version in URL bar.
-    
-    (3) Copy user-agent and paste in script.
-    
-    for example: If your user-agent is abc. Then paste this abc like this
-    
-    ```browser.addheaders = [("User-agent","abc")]```
-    
-**NOTE- If you are using any other browser find the user-agent and paste it in the script**
-
 ## Installation and Usage
 
 ```
