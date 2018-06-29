@@ -6,11 +6,11 @@ import time
 import io
 
 
-TOKEN = '533473610:AAGwGxc1Cm4DVmQj_msCXEN2HVE6XtOKJvs'
-CHANNEL = 'http://t.me/cuni_bot'
+TOKEN = ''
+CHANNEL = ''
 
-USER_ID = '17BCS1805'
-USER_PASS = 'Player@1000'
+USER_ID = ''
+USER_PASS = ''
 
 URL = 'https://uims.cuchd.in/UIMS/StaffHome.aspx/DisplayAnnouncements'
 DATA = "{Category:'ALL', PageNumber:'1', FilterText:''}"
