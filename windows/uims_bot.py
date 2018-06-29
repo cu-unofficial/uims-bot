@@ -6,11 +6,11 @@ import time
 import io
 
 
-TOKEN = ''
-CHANNEL = ''
+TOKEN = '533473610:AAGwGxc1Cm4DVmQj_msCXEN2HVE6XtOKJvs'
+CHANNEL = 'http://t.me/cuni_bot'
 
-USER_ID = ''
-USER_PASS = ''
+USER_ID = '17BCS1805'
+USER_PASS = 'Player@1000'
 
 URL = 'https://uims.cuchd.in/UIMS/StaffHome.aspx/DisplayAnnouncements'
 DATA = "{Category:'ALL', PageNumber:'1', FilterText:''}"
@@ -135,9 +135,6 @@ while True:
 
 while True:
     try:
-        current_time = time.strftime('[%d %b, %y %r]')
-        print(current_time)
-
         print('requesting data')
         response = requests.post(URL,
                              headers=headers,
