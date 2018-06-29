@@ -135,9 +135,6 @@ while True:
 
 while True:
     try:
-        current_time = time.strftime('[%d %b, %y %r]')
-        print(current_time)
-
         print('requesting data')
         response = requests.post(URL,
                              headers=headers,
